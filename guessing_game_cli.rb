@@ -4,7 +4,7 @@ def run_guessing_game
   num = rand(6)+1
   while true do
     guess = gets
-    if guess == 'exit'
+    if guess == "exit"
       break
       elsif guess == num
       puts "You guessed the correct number!"
