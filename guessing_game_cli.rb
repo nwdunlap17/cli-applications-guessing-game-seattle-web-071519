@@ -2,9 +2,8 @@
 
 def run_guessing_game
   num = rand(6)+1
-  guess = gets
   while true do
-    guess = user_guess
+    guess = gets
     if guess == 'exit'
       break
       elsif guess == num
