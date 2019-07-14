@@ -5,7 +5,7 @@ def run_guessing_game
   while true do
     guess = gets
     puts guess
-    if guess == "exit"
+    if guess == "exit/n"
       break
     elsif guess == num
       puts "You guessed the correct number!"
