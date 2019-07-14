@@ -1,12 +1,9 @@
 # Code your solution here!
 
-def user_guess
-  input = gets
-end
 
 def game
   num = rand(6)+1
-  guess = 0
+  guess = gets
   #while true do
     guess = user_guess
     if guess == 'exit'
