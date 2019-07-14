@@ -4,9 +4,9 @@ def run_guessing_game
   num = rand(6)+1
   while true do
     guess = gets.chomp
-    if guess == "exit\n"
+    if guess == "exit"
       break
-    elsif guess == num
+    elsif guess - num == 0
       puts "You guessed the correct number!"
     else
       puts "Sorry! The computer guessed #{num}"
