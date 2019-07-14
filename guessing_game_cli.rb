@@ -1,7 +1,7 @@
 # Code your solution here!
 
 
-def game
+def run_guessing_game
   num = rand(6)+1
   guess = gets
   #while true do
