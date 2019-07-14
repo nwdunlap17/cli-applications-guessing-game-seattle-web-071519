@@ -4,7 +4,6 @@ def run_guessing_game
   num = rand(6)+1
   while true do
     guess = gets
-    puts guess
     if guess == "exit\n"
       break
     elsif guess == num
